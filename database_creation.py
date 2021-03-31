@@ -1,8 +1,9 @@
 """ This is how the user will be able to create any new module with the fields that they want to use. When adding a module you will just
 need to use the database name again in order to connect to the database and make a new table. """
 
-import mysql.connector
 from configparser import ConfigParser
+
+import mysql.connector
 
 # Here we are setting up our configparser for our configurations
 config_object = ConfigParser()
